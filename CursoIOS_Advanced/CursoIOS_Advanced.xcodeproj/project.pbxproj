@@ -3,16 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AC594D989AD91D094F7D2F1A /* Pods_CursoIOS_Advanced.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDD690CC8DE190F301BDB7A /* Pods_CursoIOS_Advanced.framework */; };
+		D941B9212346488800194D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D941B9202346488800194D64 /* Assets.xcassets */; };
+		D941B92423464B9900194D64 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D941B92323464B9900194D64 /* Splash.storyboard */; };
+		D941B9262346515200194D64 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B9252346515200194D64 /* UsersViewController.swift */; };
+		D941B92C234663C500194D64 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B92A234663C500194D64 /* PersonTableViewCell.swift */; };
+		D941B92D234663C500194D64 /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D941B92B234663C500194D64 /* PersonTableViewCell.xib */; };
+		D941B932234666D600194D64 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B931234666D600194D64 /* UIView+Utils.swift */; };
+		D941B935234667DA00194D64 /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B933234667DA00194D64 /* PersonCollectionViewCell.swift */; };
+		D941B936234667DA00194D64 /* PersonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D941B934234667DA00194D64 /* PersonCollectionViewCell.xib */; };
 		D9C4CBED234525A8009BCB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4CBEC234525A8009BCB55 /* AppDelegate.swift */; };
 		D9C4CBEF234525A8009BCB55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4CBEE234525A8009BCB55 /* SceneDelegate.swift */; };
-		D9C4CBF1234525A8009BCB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4CBF0234525A8009BCB55 /* ViewController.swift */; };
+		D9C4CBF1234525A8009BCB55 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4CBF0234525A8009BCB55 /* SplashViewController.swift */; };
 		D9C4CBF4234525A8009BCB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C4CBF2234525A8009BCB55 /* Main.storyboard */; };
-		D9C4CBF6234525AA009BCB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C4CBF5234525AA009BCB55 /* Assets.xcassets */; };
 		D9C4CBF9234525AA009BCB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C4CBF7234525AA009BCB55 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +27,19 @@
 		3E334555EE7CE85D968BD66E /* Pods-CursoIOS_Advanced.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoIOS_Advanced.debug.xcconfig"; path = "Target Support Files/Pods-CursoIOS_Advanced/Pods-CursoIOS_Advanced.debug.xcconfig"; sourceTree = "<group>"; };
 		50D62749D25F00A4189B566B /* Pods-CursoIOS_Advanced.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CursoIOS_Advanced.release.xcconfig"; path = "Target Support Files/Pods-CursoIOS_Advanced/Pods-CursoIOS_Advanced.release.xcconfig"; sourceTree = "<group>"; };
 		9BDD690CC8DE190F301BDB7A /* Pods_CursoIOS_Advanced.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CursoIOS_Advanced.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D941B9202346488800194D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D941B92323464B9900194D64 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		D941B9252346515200194D64 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		D941B92A234663C500194D64 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		D941B92B234663C500194D64 /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		D941B931234666D600194D64 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		D941B933234667DA00194D64 /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
+		D941B934234667DA00194D64 /* PersonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonCollectionViewCell.xib; sourceTree = "<group>"; };
 		D9C4CBE9234525A8009BCB55 /* CursoIOS_Advanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIOS_Advanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C4CBEC234525A8009BCB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9C4CBEE234525A8009BCB55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9C4CBF0234525A8009BCB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9C4CBF0234525A8009BCB55 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		D9C4CBF3234525A8009BCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9C4CBF5234525AA009BCB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C4CBF8234525AA009BCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C4CBFA234525AA009BCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,8 +70,80 @@
 				3E334555EE7CE85D968BD66E /* Pods-CursoIOS_Advanced.debug.xcconfig */,
 				50D62749D25F00A4189B566B /* Pods-CursoIOS_Advanced.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D941B9222346498F00194D64 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9C4CBF0234525A8009BCB55 /* SplashViewController.swift */,
+				D941B9252346515200194D64 /* UsersViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D941B9272346629600194D64 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D941B92B234663C500194D64 /* PersonTableViewCell.xib */,
+				D941B92A234663C500194D64 /* PersonTableViewCell.swift */,
+				D941B933234667DA00194D64 /* PersonCollectionViewCell.swift */,
+				D941B934234667DA00194D64 /* PersonCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D941B930234666BF00194D64 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D941B931234666D600194D64 /* UIView+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D97C18C6234644FE0023D3EF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D97C18C82346454D0023D3EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D941B9202346488800194D64 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D97C18C9234645610023D3EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D941B9272346629600194D64 /* Cell */,
+				D941B9222346498F00194D64 /* Controllers */,
+				D97C18CA2346456C0023D3EF /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D97C18CA2346456C0023D3EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9C4CBF2234525A8009BCB55 /* Main.storyboard */,
+				D9C4CBF7234525AA009BCB55 /* LaunchScreen.storyboard */,
+				D941B92323464B9900194D64 /* Splash.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D97C18CC234646B10023D3EF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D941B930234666BF00194D64 /* Extensions */,
+				D9C4CBEC234525A8009BCB55 /* AppDelegate.swift */,
+				D9C4CBEE234525A8009BCB55 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		D9C4CBE0234525A8009BCB55 = {
@@ -81,13 +167,11 @@
 		D9C4CBEB234525A8009BCB55 /* CursoIOS_Advanced */ = {
 			isa = PBXGroup;
 			children = (
-				D9C4CBEC234525A8009BCB55 /* AppDelegate.swift */,
-				D9C4CBEE234525A8009BCB55 /* SceneDelegate.swift */,
-				D9C4CBF0234525A8009BCB55 /* ViewController.swift */,
-				D9C4CBF2234525A8009BCB55 /* Main.storyboard */,
-				D9C4CBF5234525AA009BCB55 /* Assets.xcassets */,
-				D9C4CBF7234525AA009BCB55 /* LaunchScreen.storyboard */,
 				D9C4CBFA234525AA009BCB55 /* Info.plist */,
+				D97C18CC234646B10023D3EF /* App */,
+				D97C18C82346454D0023D3EF /* Resources */,
+				D97C18C6234644FE0023D3EF /* Data */,
+				D97C18C9234645610023D3EF /* UI */,
 			);
 			path = CursoIOS_Advanced;
 			sourceTree = "<group>";
@@ -153,8 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C4CBF9234525AA009BCB55 /* LaunchScreen.storyboard in Resources */,
-				D9C4CBF6234525AA009BCB55 /* Assets.xcassets in Resources */,
+				D941B936234667DA00194D64 /* PersonCollectionViewCell.xib in Resources */,
+				D941B9212346488800194D64 /* Assets.xcassets in Resources */,
 				D9C4CBF4234525A8009BCB55 /* Main.storyboard in Resources */,
+				D941B92423464B9900194D64 /* Splash.storyboard in Resources */,
+				D941B92D234663C500194D64 /* PersonTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C4CBF1234525A8009BCB55 /* ViewController.swift in Sources */,
+				D9C4CBF1234525A8009BCB55 /* SplashViewController.swift in Sources */,
+				D941B92C234663C500194D64 /* PersonTableViewCell.swift in Sources */,
+				D941B9262346515200194D64 /* UsersViewController.swift in Sources */,
 				D9C4CBED234525A8009BCB55 /* AppDelegate.swift in Sources */,
+				D941B932234666D600194D64 /* UIView+Utils.swift in Sources */,
+				D941B935234667DA00194D64 /* PersonCollectionViewCell.swift in Sources */,
 				D9C4CBEF234525A8009BCB55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
