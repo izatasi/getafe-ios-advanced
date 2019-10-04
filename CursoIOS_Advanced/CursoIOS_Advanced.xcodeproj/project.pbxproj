@@ -16,6 +16,17 @@
 		D941B932234666D600194D64 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B931234666D600194D64 /* UIView+Utils.swift */; };
 		D941B935234667DA00194D64 /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B933234667DA00194D64 /* PersonCollectionViewCell.swift */; };
 		D941B936234667DA00194D64 /* PersonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D941B934234667DA00194D64 /* PersonCollectionViewCell.xib */; };
+		D989C3F32347B6A9003C85A7 /* UserDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3F22347B6A9003C85A7 /* UserDAO.swift */; };
+		D989C3F72347BF11003C85A7 /* UsersDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3F62347BF11003C85A7 /* UsersDTO.swift */; };
+		D989C3F92347C1C6003C85A7 /* InfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3F82347C1C6003C85A7 /* InfoDTO.swift */; };
+		D989C3FB2347C362003C85A7 /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3FA2347C362003C85A7 /* UserDTO.swift */; };
+		D989C3FD2347C4D6003C85A7 /* NameDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3FC2347C4D6003C85A7 /* NameDTO.swift */; };
+		D989C3FF2347C53B003C85A7 /* LocationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3FE2347C53B003C85A7 /* LocationDTO.swift */; };
+		D989C4012347C720003C85A7 /* LoginDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C4002347C720003C85A7 /* LoginDTO.swift */; };
+		D989C4032347C896003C85A7 /* DobDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C4022347C896003C85A7 /* DobDTO.swift */; };
+		D989C4052347C8EF003C85A7 /* Registered.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C4042347C8EF003C85A7 /* Registered.swift */; };
+		D989C4072347C932003C85A7 /* PictureDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C4062347C932003C85A7 /* PictureDTO.swift */; };
+		D989C4092347CC80003C85A7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C4082347CC80003C85A7 /* DataManager.swift */; };
 		D9C4CBED234525A8009BCB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4CBEC234525A8009BCB55 /* AppDelegate.swift */; };
 		D9C4CBEF234525A8009BCB55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4CBEE234525A8009BCB55 /* SceneDelegate.swift */; };
 		D9C4CBF1234525A8009BCB55 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C4CBF0234525A8009BCB55 /* SplashViewController.swift */; };
@@ -35,6 +46,17 @@
 		D941B931234666D600194D64 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		D941B933234667DA00194D64 /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
 		D941B934234667DA00194D64 /* PersonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonCollectionViewCell.xib; sourceTree = "<group>"; };
+		D989C3F22347B6A9003C85A7 /* UserDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDAO.swift; sourceTree = "<group>"; };
+		D989C3F62347BF11003C85A7 /* UsersDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDTO.swift; sourceTree = "<group>"; };
+		D989C3F82347C1C6003C85A7 /* InfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDTO.swift; sourceTree = "<group>"; };
+		D989C3FA2347C362003C85A7 /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
+		D989C3FC2347C4D6003C85A7 /* NameDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDTO.swift; sourceTree = "<group>"; };
+		D989C3FE2347C53B003C85A7 /* LocationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDTO.swift; sourceTree = "<group>"; };
+		D989C4002347C720003C85A7 /* LoginDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDTO.swift; sourceTree = "<group>"; };
+		D989C4022347C896003C85A7 /* DobDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DobDTO.swift; sourceTree = "<group>"; };
+		D989C4042347C8EF003C85A7 /* Registered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registered.swift; sourceTree = "<group>"; };
+		D989C4062347C932003C85A7 /* PictureDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDTO.swift; sourceTree = "<group>"; };
+		D989C4082347CC80003C85A7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D9C4CBE9234525A8009BCB55 /* CursoIOS_Advanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIOS_Advanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C4CBEC234525A8009BCB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9C4CBEE234525A8009BCB55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +126,9 @@
 		D97C18C6234644FE0023D3EF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D989C3F42347BEE9003C85A7 /* Remote */,
+				D989C3F02347B667003C85A7 /* Local */,
+				D989C4082347CC80003C85A7 /* DataManager.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -144,6 +169,46 @@
 				D9C4CBEE234525A8009BCB55 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		D989C3F02347B667003C85A7 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D989C3F12347B67F003C85A7 /* Models */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		D989C3F12347B67F003C85A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D989C3F22347B6A9003C85A7 /* UserDAO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D989C3F42347BEE9003C85A7 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				D989C3F52347BEFB003C85A7 /* Models */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		D989C3F52347BEFB003C85A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D989C3F62347BF11003C85A7 /* UsersDTO.swift */,
+				D989C3F82347C1C6003C85A7 /* InfoDTO.swift */,
+				D989C3FA2347C362003C85A7 /* UserDTO.swift */,
+				D989C3FC2347C4D6003C85A7 /* NameDTO.swift */,
+				D989C3FE2347C53B003C85A7 /* LocationDTO.swift */,
+				D989C4002347C720003C85A7 /* LoginDTO.swift */,
+				D989C4022347C896003C85A7 /* DobDTO.swift */,
+				D989C4042347C8EF003C85A7 /* Registered.swift */,
+				D989C4062347C932003C85A7 /* PictureDTO.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D9C4CBE0234525A8009BCB55 = {
@@ -296,10 +361,21 @@
 			files = (
 				D9C4CBF1234525A8009BCB55 /* SplashViewController.swift in Sources */,
 				D941B92C234663C500194D64 /* PersonTableViewCell.swift in Sources */,
+				D989C3FF2347C53B003C85A7 /* LocationDTO.swift in Sources */,
 				D941B9262346515200194D64 /* UsersViewController.swift in Sources */,
+				D989C3FB2347C362003C85A7 /* UserDTO.swift in Sources */,
+				D989C4012347C720003C85A7 /* LoginDTO.swift in Sources */,
+				D989C3F32347B6A9003C85A7 /* UserDAO.swift in Sources */,
+				D989C4092347CC80003C85A7 /* DataManager.swift in Sources */,
+				D989C3F72347BF11003C85A7 /* UsersDTO.swift in Sources */,
+				D989C3F92347C1C6003C85A7 /* InfoDTO.swift in Sources */,
+				D989C4052347C8EF003C85A7 /* Registered.swift in Sources */,
 				D9C4CBED234525A8009BCB55 /* AppDelegate.swift in Sources */,
+				D989C3FD2347C4D6003C85A7 /* NameDTO.swift in Sources */,
+				D989C4032347C896003C85A7 /* DobDTO.swift in Sources */,
 				D941B932234666D600194D64 /* UIView+Utils.swift in Sources */,
 				D941B935234667DA00194D64 /* PersonCollectionViewCell.swift in Sources */,
+				D989C4072347C932003C85A7 /* PictureDTO.swift in Sources */,
 				D9C4CBEF234525A8009BCB55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
