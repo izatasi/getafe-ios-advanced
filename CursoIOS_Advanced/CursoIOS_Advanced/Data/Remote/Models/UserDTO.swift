@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct UserDTO: Codable {
+struct UserDTO: Codable{
     let gender: String?
     let name: NameDTO?
     let location: LocationDTO?
@@ -20,9 +20,17 @@ struct UserDTO: Codable {
     let cell: String?
     //let id: IdDTO?
     let picture: PictureDTO
+    //let nat: String?
 
     private enum CodingKeys: String, CodingKey {
         case name = "firstname"
-        case info
+        case gender
+        case location
+        case login
+        case dob
+        case registered
+        case phone
+        case cell
+        case picture
     }
 }

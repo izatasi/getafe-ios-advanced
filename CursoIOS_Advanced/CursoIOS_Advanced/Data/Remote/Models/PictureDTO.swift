@@ -12,5 +12,4 @@ struct PictureDTO: Codable {
     let large: String?
     let medium: String?
     let thumbnail: String?
-
 }

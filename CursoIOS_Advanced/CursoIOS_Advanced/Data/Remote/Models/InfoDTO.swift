@@ -14,7 +14,6 @@ struct InfoDTO: Codable {
     let version: String?
     let count: Int?
     
-   
     private enum CodingKeys: String, CodingKey {
         case seed
         case page

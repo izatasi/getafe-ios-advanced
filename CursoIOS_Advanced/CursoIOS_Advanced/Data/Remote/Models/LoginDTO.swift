@@ -14,6 +14,6 @@ struct LoginDTO: Codable {
     let password: String?
     let salt: String?
     let md5: String?
-    let shal: String?
+    let sha1: String?
     let sha256: String?
 }

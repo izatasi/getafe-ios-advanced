@@ -16,6 +16,10 @@
 		D941B932234666D600194D64 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B931234666D600194D64 /* UIView+Utils.swift */; };
 		D941B935234667DA00194D64 /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B933234667DA00194D64 /* PersonCollectionViewCell.swift */; };
 		D941B936234667DA00194D64 /* PersonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D941B934234667DA00194D64 /* PersonCollectionViewCell.xib */; };
+		D986A77A234B83C200FD8D4C /* CoordinatesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986A779234B83C200FD8D4C /* CoordinatesDTO.swift */; };
+		D986A77C234B842A00FD8D4C /* TimeZoneDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986A77B234B842A00FD8D4C /* TimeZoneDTO.swift */; };
+		D986A77E234B892600FD8D4C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986A77D234B892600FD8D4C /* DatabaseManager.swift */; };
+		D986A780234BAEC100FD8D4C /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986A77F234BAEC100FD8D4C /* ApiManager.swift */; };
 		D989C3F32347B6A9003C85A7 /* UserDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3F22347B6A9003C85A7 /* UserDAO.swift */; };
 		D989C3F72347BF11003C85A7 /* UsersDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3F62347BF11003C85A7 /* UsersDTO.swift */; };
 		D989C3F92347C1C6003C85A7 /* InfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989C3F82347C1C6003C85A7 /* InfoDTO.swift */; };
@@ -46,6 +50,10 @@
 		D941B931234666D600194D64 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		D941B933234667DA00194D64 /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
 		D941B934234667DA00194D64 /* PersonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonCollectionViewCell.xib; sourceTree = "<group>"; };
+		D986A779234B83C200FD8D4C /* CoordinatesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesDTO.swift; sourceTree = "<group>"; };
+		D986A77B234B842A00FD8D4C /* TimeZoneDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneDTO.swift; sourceTree = "<group>"; };
+		D986A77D234B892600FD8D4C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		D986A77F234BAEC100FD8D4C /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		D989C3F22347B6A9003C85A7 /* UserDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDAO.swift; sourceTree = "<group>"; };
 		D989C3F62347BF11003C85A7 /* UsersDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDTO.swift; sourceTree = "<group>"; };
 		D989C3F82347C1C6003C85A7 /* InfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDTO.swift; sourceTree = "<group>"; };
@@ -126,9 +134,9 @@
 		D97C18C6234644FE0023D3EF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D989C4082347CC80003C85A7 /* DataManager.swift */,
 				D989C3F42347BEE9003C85A7 /* Remote */,
 				D989C3F02347B667003C85A7 /* Local */,
-				D989C4082347CC80003C85A7 /* DataManager.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -174,6 +182,7 @@
 		D989C3F02347B667003C85A7 /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				D986A77D234B892600FD8D4C /* DatabaseManager.swift */,
 				D989C3F12347B67F003C85A7 /* Models */,
 			);
 			path = Local;
@@ -191,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				D989C3F52347BEFB003C85A7 /* Models */,
+				D986A77F234BAEC100FD8D4C /* ApiManager.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -199,14 +209,16 @@
 			isa = PBXGroup;
 			children = (
 				D989C3F62347BF11003C85A7 /* UsersDTO.swift */,
-				D989C3F82347C1C6003C85A7 /* InfoDTO.swift */,
 				D989C3FA2347C362003C85A7 /* UserDTO.swift */,
+				D989C3F82347C1C6003C85A7 /* InfoDTO.swift */,
 				D989C3FC2347C4D6003C85A7 /* NameDTO.swift */,
 				D989C3FE2347C53B003C85A7 /* LocationDTO.swift */,
 				D989C4002347C720003C85A7 /* LoginDTO.swift */,
 				D989C4022347C896003C85A7 /* DobDTO.swift */,
 				D989C4042347C8EF003C85A7 /* Registered.swift */,
 				D989C4062347C932003C85A7 /* PictureDTO.swift */,
+				D986A779234B83C200FD8D4C /* CoordinatesDTO.swift */,
+				D986A77B234B842A00FD8D4C /* TimeZoneDTO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -365,6 +377,7 @@
 				D941B9262346515200194D64 /* UsersViewController.swift in Sources */,
 				D989C3FB2347C362003C85A7 /* UserDTO.swift in Sources */,
 				D989C4012347C720003C85A7 /* LoginDTO.swift in Sources */,
+				D986A780234BAEC100FD8D4C /* ApiManager.swift in Sources */,
 				D989C3F32347B6A9003C85A7 /* UserDAO.swift in Sources */,
 				D989C4092347CC80003C85A7 /* DataManager.swift in Sources */,
 				D989C3F72347BF11003C85A7 /* UsersDTO.swift in Sources */,
@@ -374,9 +387,12 @@
 				D989C3FD2347C4D6003C85A7 /* NameDTO.swift in Sources */,
 				D989C4032347C896003C85A7 /* DobDTO.swift in Sources */,
 				D941B932234666D600194D64 /* UIView+Utils.swift in Sources */,
+				D986A77A234B83C200FD8D4C /* CoordinatesDTO.swift in Sources */,
 				D941B935234667DA00194D64 /* PersonCollectionViewCell.swift in Sources */,
 				D989C4072347C932003C85A7 /* PictureDTO.swift in Sources */,
+				D986A77C234B842A00FD8D4C /* TimeZoneDTO.swift in Sources */,
 				D9C4CBEF234525A8009BCB55 /* SceneDelegate.swift in Sources */,
+				D986A77E234B892600FD8D4C /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
