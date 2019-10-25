@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GetUserPersonalData2" rowHeight="153" id="0M0-7j-xHI" customClass="GetUserPersonalData2">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="153"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0M0-7j-xHI" id="gFa-om-t3B">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHa-6l-2Ix">
+                        <rect key="frame" x="20" y="12" width="374" height="129"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fmr-fM-lr3">
+                                <rect key="frame" x="0.0" y="0.0" width="143" height="127"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Uz-hN-UMZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="143" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xcH-Is-Obx">
+                                        <rect key="frame" x="0.0" y="28.5" width="143" height="32"/>
+                                        <segments>
+                                            <segment title="Mr"/>
+                                            <segment title="Mrs"/>
+                                            <segment title="Miss"/>
+                                        </segments>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ7-zm-kjj">
+                                        <rect key="frame" x="0.0" y="67.5" width="143" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="scD-xT-azU">
+                                        <rect key="frame" x="0.0" y="96" width="143" height="32"/>
+                                        <segments>
+                                            <segment title="Female"/>
+                                            <segment title="Male"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fmr-fM-lr3" firstAttribute="top" secondItem="tHa-6l-2Ix" secondAttribute="top" id="Npy-kR-edm"/>
+                            <constraint firstItem="Fmr-fM-lr3" firstAttribute="leading" secondItem="tHa-6l-2Ix" secondAttribute="leading" id="iLR-T9-MED"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tHa-6l-2Ix" firstAttribute="leading" secondItem="gFa-om-t3B" secondAttribute="leading" constant="20" id="6G9-KC-Qa3"/>
+                    <constraint firstAttribute="bottom" secondItem="tHa-6l-2Ix" secondAttribute="bottom" constant="12" id="RsZ-eb-IeV"/>
+                    <constraint firstItem="tHa-6l-2Ix" firstAttribute="top" secondItem="gFa-om-t3B" secondAttribute="top" constant="12" id="jqO-yy-HEt"/>
+                    <constraint firstAttribute="trailing" secondItem="tHa-6l-2Ix" secondAttribute="trailing" constant="20" id="uis-jk-HtF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-136.23188405797103" y="-145.64732142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
