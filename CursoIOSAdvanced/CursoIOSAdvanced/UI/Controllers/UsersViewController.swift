@@ -26,8 +26,10 @@ class UsersViewController: UIViewController {
         updateListType(optionSelected: sender.selectedSegmentIndex)
     }
     
+    
     // MARK: - Properties
     private var segueTarget = "SegueMainToDetail"
+    private var segueAddUser = "SegueMainToAddUser" 
     private var cellSpacing: CGFloat = 16.0
     private var users: Array<User> = []
     

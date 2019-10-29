@@ -62,6 +62,8 @@
 		D9D4C7152360A7D80067D6AF /* loading_animation_new.json in Resources */ = {isa = PBXBuildFile; fileRef = D9D4C7142360A7D80067D6AF /* loading_animation_new.json */; };
 		D9D4C7172360A9A90067D6AF /* 10612-coin.json in Resources */ = {isa = PBXBuildFile; fileRef = D9D4C7162360A9A90067D6AF /* 10612-coin.json */; };
 		D9D4C7192360B1CA0067D6AF /* 2825-loading-circle.json in Resources */ = {isa = PBXBuildFile; fileRef = D9D4C7182360B1C90067D6AF /* 2825-loading-circle.json */; };
+		D9EC905B23676F4500194ED9 /* FlagForNationality.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC905923676F4500194ED9 /* FlagForNationality.swift */; };
+		D9EC905C23676F4500194ED9 /* FlagForNationality.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9EC905A23676F4500194ED9 /* FlagForNationality.xib */; };
 		D9FBD0B62363511C00D16701 /* GetUserBirthdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBD0B42363511C00D16701 /* GetUserBirthdate.swift */; };
 		D9FBD0B72363511C00D16701 /* GetUserBirthdate.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FBD0B52363511C00D16701 /* GetUserBirthdate.xib */; };
 		D9FBD0BE236351B500D16701 /* GetUserAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBD0BC236351B400D16701 /* GetUserAddress.swift */; };
@@ -133,6 +135,8 @@
 		D9D4C7142360A7D80067D6AF /* loading_animation_new.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = loading_animation_new.json; sourceTree = "<group>"; };
 		D9D4C7162360A9A90067D6AF /* 10612-coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "10612-coin.json"; sourceTree = "<group>"; };
 		D9D4C7182360B1C90067D6AF /* 2825-loading-circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2825-loading-circle.json"; sourceTree = "<group>"; };
+		D9EC905923676F4500194ED9 /* FlagForNationality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagForNationality.swift; sourceTree = "<group>"; };
+		D9EC905A23676F4500194ED9 /* FlagForNationality.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlagForNationality.xib; sourceTree = "<group>"; };
 		D9FBD0B42363511C00D16701 /* GetUserBirthdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserBirthdate.swift; sourceTree = "<group>"; };
 		D9FBD0B52363511C00D16701 /* GetUserBirthdate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GetUserBirthdate.xib; sourceTree = "<group>"; };
 		D9FBD0BC236351B400D16701 /* GetUserAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserAddress.swift; sourceTree = "<group>"; };
@@ -366,6 +370,8 @@
 				D9A4B8D923621DC000979ED5 /* GetUserMapLocation.xib */,
 				D9FBD0C0236365E400D16701 /* GetUserNationality.swift */,
 				D9FBD0C1236365E400D16701 /* GetUserNationality.xib */,
+				D9EC905923676F4500194ED9 /* FlagForNationality.swift */,
+				D9EC905A23676F4500194ED9 /* FlagForNationality.xib */,
 			);
 			path = GetUserData;
 			sourceTree = "<group>";
@@ -458,6 +464,7 @@
 				0F4E3D20234523E3005DFA5F /* LaunchScreen.storyboard in Resources */,
 				0F571BDD2346698E000BB376 /* PersonCollectionViewCell.xib in Resources */,
 				D972E28D23576ACE00169ACB /* UserDetail.storyboard in Resources */,
+				D9EC905C23676F4500194ED9 /* FlagForNationality.xib in Resources */,
 				0F4E3D1D234523E3005DFA5F /* Assets.xcassets in Resources */,
 				D9D4C7172360A9A90067D6AF /* 10612-coin.json in Resources */,
 				D9FBD0BF236351B500D16701 /* GetUserAddress.xib in Resources */,
@@ -554,6 +561,7 @@
 				0F4E3D18234523E2005DFA5F /* SplashViewController.swift in Sources */,
 				0F571BD4234662AC000BB376 /* PersonTableViewCell.swift in Sources */,
 				0F571BCD23465115000BB376 /* UsersViewController.swift in Sources */,
+				D9EC905B23676F4500194ED9 /* FlagForNationality.swift in Sources */,
 				D9A4B8DA23621DC000979ED5 /* GetUserMapLocation.swift in Sources */,
 				D9FBD0B62363511C00D16701 /* GetUserBirthdate.swift in Sources */,
 				D9FBD0C2236365E400D16701 /* GetUserNationality.swift in Sources */,

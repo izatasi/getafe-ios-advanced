@@ -10,6 +10,7 @@ import UIKit
 
 class GetUserAddress: UITableViewCell {
     static let cellIdentifier = String(describing: GetUserAddress.self)
+    static let cellHeight = CGFloat(100)
 
     @IBOutlet weak var stateField: UITextField!
     @IBOutlet weak var cityField: UITextField!

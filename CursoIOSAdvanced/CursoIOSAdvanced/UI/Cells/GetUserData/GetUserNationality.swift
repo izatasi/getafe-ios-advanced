@@ -9,6 +9,8 @@
 import UIKit
 
 class GetUserNationality: UITableViewCell {
+    static let cellIdentifier = String(describing: GetUserNationality.self)
+    static let cellHeight = CGFloat(145)
 
     override func awakeFromNib() {
         super.awakeFromNib()

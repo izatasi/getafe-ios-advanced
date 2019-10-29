@@ -9,6 +9,7 @@ import UIKit
 
 class GetUserCountry: UITableViewCell {
     static let cellIdentifier = String(describing: GetUserCountry.self)
+    static let cellHeight = CGFloat(92)
 
     @IBOutlet weak var countrySelector: UIPickerView!
     

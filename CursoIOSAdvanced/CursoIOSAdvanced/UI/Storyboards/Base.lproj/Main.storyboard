@@ -67,13 +67,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Users" id="9Eg-PP-Rq5">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="9rK-If-UKN">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lf0-iq-Opo">
-                                <rect key="frame" x="302" y="0.0" width="92" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="+"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="9rK-If-UKN">
+                            <connections>
+                                <segue destination="8tC-Da-Zj5" kind="show" id="Pww-bf-FnE"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -88,6 +85,16 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="108.48214285714285"/>
         </scene>
+        <!--GetNewUser-->
+        <scene sceneID="s0f-87-4QO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GetNewUser" id="8tC-Da-Zj5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7ja-zT-zDK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HaP-Pb-c87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653" y="26"/>
+        </scene>
         <!--UserDetail-->
         <scene sceneID="aBO-nx-d32">
             <objects>
@@ -96,7 +103,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r6t-7Q-7LY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1643.4782608695652" y="101.11607142857143"/>
+            <point key="canvasLocation" x="1643" y="204"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HN7-Dc-k8C">

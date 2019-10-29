@@ -9,6 +9,7 @@ import UIKit
 
 class GetUserContactData: UITableViewCell {
     static let cellIdentifier = String(describing: GetUserContactData.self)
+    static let cellHeight = CGFloat(100)
 
     @IBOutlet weak var eMailField: UITextField!
     

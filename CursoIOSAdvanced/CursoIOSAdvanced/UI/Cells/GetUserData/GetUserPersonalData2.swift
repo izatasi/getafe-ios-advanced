@@ -1,5 +1,5 @@
 //
-//  GetPersonalData2.swift
+//  GetUserPersonalData2.swift
 //  CursoIOSAdvanced
 //
 //  Created by Dev2 on 25/10/2019.
@@ -8,8 +8,11 @@
 
 import UIKit
 
-class GetPersonalData2: UITableViewCell {
-    static let cellIdentifier = String(describing: self)
+class GetUserPersonalData2: UITableViewCell {
+    static let cellIdentifier = String(describing: GetUserPersonalData2.self)
+    static let cellHeight = CGFloat(155)
+    
+    @IBOutlet weak var onPressGender: UISegmentedControl!
 
     override func awakeFromNib() {
         super.awakeFromNib()

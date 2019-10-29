@@ -8,7 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GetUserCountry" rowHeight="128" id="ONW-pr-ytY" customClass="GetUserCountry">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GetUserCountry" rowHeight="128" id="ONW-pr-ytY" customClass="GetUserCountry" customModule="CursoIOSAdvanced" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ONW-pr-ytY" id="aL0-1J-SyI">
@@ -26,6 +26,11 @@
                             </label>
                             <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dHd-za-jRN">
                                 <rect key="frame" x="0.0" y="20.5" width="320" height="91.5"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="Alemania" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="España" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="Francia" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </pickerView>
                         </subviews>
                     </stackView>
@@ -38,7 +43,7 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="countrySelector" destination="dHd-za-jRN" id="LbW-DZ-Mp1"/>
+                <outlet property="countrySelector" destination="dHd-za-jRN" id="QxU-ei-I77"/>
             </connections>
             <point key="canvasLocation" x="-220" y="74"/>
         </tableViewCell>

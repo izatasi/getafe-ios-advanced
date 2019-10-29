@@ -9,7 +9,8 @@
 import UIKit
 
 class GetUserBirthdate: UITableViewCell {
-    static let cellIdentifier = String(describing: self)
+    static let cellIdentifier = String(describing: GetUserBirthdate.self)
+    static let cellHeight = CGFloat(120)
 
     override func awakeFromNib() {
         super.awakeFromNib()
